@@ -205,4 +205,22 @@ form{}
   }
   .column-f{
   }
-
+  [class*="i-"]{
+  display:inline-block;
+  width:53px;
+  height:53px;
+  background-image:url(../images/sprite.png);
+  }
+  .i-skype{
+    background-position: 120px 168px;
+  }
+.i-facebook{
+    background-position: 120px 3px;}
+.i-linkedin{
+    background-position: 190px -54px;}
+.i-dribbble{
+    background-position: 243px 113px;}
+.i-pinterest{
+    background-position: 50px 280px;}
+i-share{
+    background-position: 0 190px;}
