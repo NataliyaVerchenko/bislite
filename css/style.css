@@ -30,7 +30,7 @@ img{
     height:auto;
 }
 
-/*навигация*/
+/*************навигация*/
 .nav .container{
     display: flex;
     justify-content: space-between;
@@ -91,7 +91,7 @@ img{
 }
 
 
-/*main*/
+/******************main*/
 .section-title{
     border-bottom:1px solid grey;
     padding: 15px 0;
@@ -117,7 +117,7 @@ img{
 margin:0;
  }
 
- /*forms*/
+ /*section forms*/
 .section-form{}
 form{}
 .form-group{
@@ -170,7 +170,7 @@ form{}
          width: 40%;
  }
 
- /*map*/
+ /*section map*/
  .wrapp-map{
      border: 1px solid #81e4ed;
      background-color: #e8fcfe;
@@ -194,3 +194,15 @@ form{}
 .iner-text{color: #363636;
   font-size: 14px;
   font-weight: 400;}
+
+  /*******************footer*/
+
+  .footer{
+
+  }
+  .row-f{
+  display:flex;
+  }
+  .column-f{
+  }
+
