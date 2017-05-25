@@ -198,13 +198,21 @@ form{}
   /*******************footer*/
 
   .footer{
-
+border:1px solid rgba(0,0,0,0.15);
+padding: 30px 0;
   }
+  .footer .list-icons{
+    max-width: 200px;
+    }
   .row-f{
-    display:flex;
-    align-items: flex-start;
+     display: flex;
+     align-items: flex-start;
+     justify-content:space-between;
+      margin-top: 30px;
+   /*  margin: 0 -70px;*/
   }
   .column-f{
+
   }
   .list-icons{
     list-style: none;
@@ -213,12 +221,14 @@ form{}
      display: flex;
      justify-content:space-between;
      flex-wrap:wrap;
+     max-width: 200px;
   }
   .inner-column{
-  width:300px;}
+     max-width: 300px;
+  }
   .list-icons >li{
-      width:33%;
-      padding: 17px;
+    width: 33%;
+    padding: 0 7px;
   }
   [class*="i-"]{
   display:inline-block;
@@ -243,4 +253,8 @@ form{}
     .list-news ,.list-pages{
         list-style: none;
          margin: 0;
-         padding: 0;}
+         padding: 0;
+         }
+ .text-copyright{
+     padding-right: 35px;
+ }
