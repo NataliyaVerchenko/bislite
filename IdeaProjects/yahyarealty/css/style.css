@@ -1,0 +1,140 @@
+body{
+    font-family: 'Didact Gothic', Trebuchet MS, sans-serif;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+        background: #dfd8b1;
+    }
+    * {
+     box-sizing:border-box;
+     }
+.container{
+    max-width: 1024px;
+    position: relative;
+    margin: 0 auto;
+
+        padding:10px;
+}
+
+img{
+    max-weight:100%;
+    height:auto;
+}
+
+header{
+    background: #2b2118 url('../img/bg6.png') repeat 0 0;
+}
+.clear{
+    width: 100%;
+    clear: both;}
+.header-wrapper{
+    height: 166px;
+    max-width: 1024px;
+     margin: 0 auto;
+     position: relative;
+
+     padding:10px;
+    }
+.row-top ,.row-bottom{
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 0;
+            align-items: center;
+    }
+.site-title{
+     color: #ae963f;
+ }
+ .nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+     }
+.nav li{
+    padding: 10px;
+    margin-left: 5px;
+    margin-top: 10px;
+    background: rgba(76, 59, 45, 0.7);
+     }
+.nav li a{
+    color: #ae963f;
+    padding:5px 0;
+    text-decoration:none;
+
+          }
+.info-addres-header a{
+    font-size:14px;
+    color: #fff;
+}
+
+.panel{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    }
+.panel li{
+        padding:10px;
+        margin: 0 10px;
+        }
+.panel li a{
+    color:#fff;
+}
+.icon{
+background-color: rgba(245, 245, 220, 0.16);
+    color: antiquewhite;
+    border: none;
+    height: 37px;
+        padding-left: 42px;
+}
+/*footer*/
+
+.site-footer{
+    background: #564435;
+    position: relative;
+    width: 100%;
+ }
+ .site-footer h1 {
+     color: #c2bcb6;
+     text-transform: uppercase;
+     font-weight: bold;
+ }
+ .site-footer .copyright {
+     line-height: 20px;
+     text-align: center;
+     background: #2b2118;
+ }
+ .site-footer section {
+     font-size: 0.78em;
+     float: left;
+     width: 15%;
+     margin: 0 1%;
+     padding: 25px 0;
+ }
+ .site-footer section.bottom-estate {
+     width: 15%;
+     margin-left: 24px;
+ }
+ .copyright{
+ color: #fff;
+ }
+.copyright a {
+     color: #fff;
+     font-size: 0.78em;
+ }
+
+
+ .columns{
+     display: flex;
+  }
+ .col-img-card{
+ max-width:;
+     display:inline-block;
+         margin-right: 30px;
+ }
+ .col-img-card >img{width:100%;}
