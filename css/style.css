@@ -80,7 +80,7 @@ img{
 
     }
 .navbar >li >a:hover{
-
+color:red;
 
         }
 .logo{
@@ -113,7 +113,7 @@ img{
  .wrapper-section{
     display:flex;
     justify-content: space-between;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     margin:0;
  }
 
@@ -166,8 +166,10 @@ form{}
      resize:vertical;
  }
  .section-form{
-     max-width:500px;
-     width: 40%;
+  /*   max-width:500px;
+     width: 40%;*/
+         flex-grow: 1;
+         margin: 22px;
  }
 
  /*section map*/
@@ -176,7 +178,7 @@ form{}
      background-color: #e8fcfe;
     padding:20px;
  }
- .section-map{    width: 40%;}
+ .section-map{   /* width: 40%;*/}
  .title-map{
      margin-bottom: 10px;}
  .img-map img{
@@ -213,10 +215,11 @@ padding: 30px 0;
      align-items: flex-start;
      justify-content:space-between;
       margin-top: 30px;
+      flex-wrap: wrap;
    /*  margin: 0 -70px;*/
   }
-  .column-f{
-
+  .row-f >.cop{
+width:70%;
   }
   .list-icons{
     list-style: none;
@@ -259,9 +262,17 @@ padding: 30px 0;
          margin: 0;
          padding: 0;
          }
+         .list-pages >li >a ,
+         .list-news >li >a{
+         color:black;}
+                  .list-pages >li >a:hover ,
+                  .list-news >li >a:hover{
+                  color:#2aacc8;}
  .text-copyright{
      padding-right: 35px;
  }
+ .column-title{
+     text-transform: uppercase;}
  /**********************************PORTFOLIO*/
 .tabs{
     list-style: none;
@@ -272,20 +283,27 @@ padding: 30px 0;
     justify-content:space-between;
 }
 .tabs li{
-    padding: 5px;
+    padding: 5px;padding: 10px;
+
 }
 .tab{
     display: block;
 }
+
+
+
+
 .imgs-list{
-    list-style: none;
+   list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
-
     justify-content:space-between;
     flex-wrap: wrap;
 }
+
+
+
 .line-pagin{
     list-style: none;
     margin: 0;
@@ -293,10 +311,47 @@ padding: 30px 0;
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 .line-pagin >.page{
     display: block;
     margin: 5px;
-    padding: 10px;
-    border: 2px solid gray;
+    padding: 5px;
+
 }
+
+pagination{
+   list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+     padding: 20px;
+        margin-bottom: 20px;
+}
+.page{
+    padding: 10px 22px;
+    font-size: 16px;
+    line-height: 1.5;
+        padding: 0px 9px;
+        margin-right: 4px;
+
+}
+.page a{
+display:block;
+     padding: 10px 15px;
+     font-size: 16px;
+     line-height: 1.5;
+ }
+
+.page >a:hover{
+    color: #fff;
+    background-color: #01afe8;
+    border-color: #01afe8;
+
+
+}
+
+
+
