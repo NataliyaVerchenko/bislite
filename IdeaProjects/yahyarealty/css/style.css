@@ -17,7 +17,7 @@ body{
 }
 
 img{
-    max-weight:100%;
+    max-width:100%;
     height:auto;
 }
 
@@ -92,12 +92,218 @@ background-color: rgba(245, 245, 220, 0.16);
     height: 37px;
         padding-left: 42px;
 }
-/*footer*/
+
+/*******************************main*/
+
+.main{
+position: relative;
+    min-width: 320px;
+    width: 100%;
+    overflow: hidden;
+}
+@media screen and (min-height: 48.75em) and (min-width: 80em)
+.main {
+    padding-top: 0;
+}
+section .list-article {
+    margin: 40px 0;
+}
+
+.list-article{
+margin-bottom: 80px;
+    position: relative;
+    min-height: 324px;
+}
+.list-article .card-room{
+    margin-bottom: 80px;
+        position: relative;
+        min-height: 324px;
+}
+.list-article .header-card {
+    padding-bottom: 25px;
+}
+.header-card {
+    margin: 5px 0 17px 0;
+    position: relative;
+    min-height: 40px;
+}
+.content .list-article .header-card {
+    border-top: 1px solid #a09162;
+    margin: 0 0 0 60%;
+    font-size: 0.8em;
+}
+.list-article .header-card h2 {
+    bottom: 25px;
+    border-right: 60px solid rgba(210, 204, 168, 0.8);
+    padding-bottom: 2px;
+}
+
+
+ .columns{
+        display: block;
+  }
+ .col-img-card{
+overflow: auto;
+    width: 59.2%;
+    max-width: 577px;
+    float: left;
+    margin-top: -130px;
+        padding-right: 35px;
+ }
+ .col-img-card >img{}
+
+ .col-desc-card {
+     width: 40%;
+     margin-left: 60%;
+ }
+ .price{
+     border: 1px solid #a09162;
+     border-style: solid none;
+     position: relative;
+     line-height: 44px;
+     height: 44px;
+     -moz-box-sizing: border-box;
+     -ms-box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+     -khtml-box-sizing: border-box;
+     box-sizing: border-box;
+     padding: 0 0 0 5px;
+     white-space: nowrap;
+     }
+     .property-short-list{
+     padding: 20px 0 5px;
+         position: relative;
+         border-bottom: 1px solid #beb897;
+         background: #eae3b9;
+         white-space: nowrap;
+         }
+         .property-short-list dt.p1, .property-short-list dd.p1 {
+             width: 11%;
+         }
+         .property-short-list dt {
+             font-size: 0.78em;
+             color: #937d64;
+             top: 0;
+             position: absolute;
+         }
+         .property-short-list dd {
+             color: #2b2118;
+             display: inline-block;
+             top: 17px;
+             line-height: 0.8em;
+             white-space: normal;
+             vertical-align: top;
+             padding-right: 5px;
+         }
+         .property-short-list dt.p2 {
+             left: 30%;
+         }
+         .property-short-list dt.p2, .property-short-list dd.p2 {
+             width: 11%;
+         }
+         .property-short-list dt.p3 {
+             left: 56%;
+         }
+         ty-short-list dt.p3, .property-short-list dd.p3 {
+             width: 25%;
+         }
+         .property-short-list dd.p3 {
+             width: 25%;
+         }
+         .property-short-list dt.p4, .property-short-list dd.p4 {
+             width: 14%;
+         }
+
+
+.object-prices strong{
+         font-size: 1.33em;
+         font-weight: 700;
+         color: #2b2118;
+             border: 0;
+             font-family: 'Didact Gothic', Trebuchet MS, sans-serif;
+             font-size: 100%;
+             font-style: inherit;
+             font-weight: inherit;
+             margin: 0;
+             outline: 0;
+             padding: 0;
+             vertical-align: baseline;
+         }
+
+
+ section .list-article .entry-content {
+      overflow: auto;
+ }
+.description{
+    padding: 12px 0;
+}
+
+.button-content button{
+    width: auto;
+    display: block;
+    clear: both;
+    font-family: 'Didact Gothic', Trebuchet MS, sans-serif;
+        font-size: 100%;
+        font-style: inherit;
+        font-weight: inherit;
+            background: #d3bf7f;
+            color: #33291c;
+            width: auto;
+            display: block;
+            clear: both;
+            font-family: 'Didact Gothic', Trebuchet MS, sans-serif;
+            font-size: 100%;
+            font-style: inherit;
+            font-weight: inherit;
+            /* float: right; */
+            border: none;
+
+}
+.button-content{
+
+      text-align: -webkit-right;
+
+
+}
+button-content .redmore a {
+    width: auto;
+    float: none;
+}
+.redmore{
+    background: rgba(76, 59, 45, 0.7);
+    border: none;
+    line-height: 18px;
+    height: 35px;
+    display: inline-block;
+    text-align: left;
+    overflow: hidden;
+    padding: 7px 7px 10px;
+    /* position: relative; */
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -khtml-box-sizing: border-box;
+    box-sizing: border-box;
+    cursor: pointer;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+}
+
+/**************************footer*/
+
 
 .site-footer{
     background: #564435;
     position: relative;
     width: 100%;
+ }
+ .site-footer section {
+     font-size: 0.78em;
+     float: left;
+     width: 15%;
+     margin: 0 1%;
+     padding: 25px 0;
  }
  .site-footer h1 {
      color: #c2bcb6;
@@ -129,12 +335,90 @@ background-color: rgba(245, 245, 220, 0.16);
  }
 
 
- .columns{
-     display: flex;
-  }
- .col-img-card{
- max-width:;
-     display:inline-block;
-         margin-right: 30px;
+
+ .site-footer section ul {
+     color: #c2bcb6;
+         font-size: 15px;
  }
- .col-img-card >img{width:100%;}
+
+ .site-footer section li {
+     padding-left: 15px;
+     border: 0;
+         font-family: 'Didact Gothic', Trebuchet MS, sans-serif;
+         font-size: 100%;
+         font-style: inherit;
+         font-weight: inherit;
+         margin: 0;
+         outline: 0;
+         padding: 0;
+         vertical-align: baseline;
+ }
+
+ .site-footer section a {
+     text-decoration: none;
+     color: #c2bcb6;
+     border: none !important;
+     position: relative;
+ }
+ .site-footer a:hover {
+     color: #f2d659;
+     border-color: #f2d659;
+ }
+ .site-footer section {
+     font-size: 0.78em;
+     float: left;
+     width: 15%;
+    margin: 0 30px;
+     padding: 25px 0;
+ }
+
+ .site-footer section.bottom-contacts {
+     float: none;
+     width: 32%;
+     margin-left: 68%;
+ }
+ .contacts dt {
+     display: none;
+ }
+ .contacts dd {
+     margin: 6px 0;
+     float: none;
+     width: auto;
+     padding: 0;
+     position: relative;
+ }
+ /************************button to top*/
+ #to-top {
+     text-align: right;
+     width: 100%;
+     margin: 40px -7px -12px 0;
+     height: 35px;
+     overflow: visible;
+     clear: both;
+ }
+ .button-to-top{
+    background: #d3bf7f;
+    color: #33291c;
+    border: none;
+    line-height: 18px;
+    height: 35px;
+    display: inline-block;
+    text-align: left;
+    overflow: hidden;
+    padding: 7px 7px 10px;
+    position: relative;
+    box-sizing: border-box;
+    cursor: pointer;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+               }
+a.button-to-top {
+text-decoration: none;
+               }
+ .button-to-top.icon {
+     padding-left: 42px;
+ }
+.button-to-top:hover {
+     background: #d9bd60 !important;
+     color: #33291c !important;
+ }
