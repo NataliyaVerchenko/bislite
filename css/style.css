@@ -85,9 +85,10 @@ img{
         }
 .logo{
     display:inline-block;
-    margin-left;40px;}
+    margin-left:40px;
+}
 .logo img{
- display:block;
+     display:block;
 }
 
 
@@ -110,11 +111,10 @@ img{
  }
 
  .wrapper-section{
- display:flex;
-
-     justify-content: space-between;
-     flex-wrap: nowrap;
-margin:0;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    margin:0;
  }
 
  /*section forms*/
@@ -133,8 +133,8 @@ form{}
     background-color: #ffffff;
 }
 .form-lable{
- display:block;
- margin-bottom:10px;
+     display:block;
+     margin-bottom:10px;
  }
  .form-button{
      box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2), inset 0 2px 1px rgba(255, 255, 255, 0.1);
@@ -167,7 +167,7 @@ form{}
  }
  .section-form{
      max-width:500px;
-         width: 40%;
+     width: 40%;
  }
 
  /*section map*/
@@ -184,16 +184,20 @@ form{}
      width:100%;
  }
  .adress{
- margin-top:20px;}
+     margin-top:20px;
+ }
  .t-addres{
- color: #000000;
- font-size: 15px;
- font-weight: 700;
- text-transform: uppercase;}
+     color: #000000;
+     font-size: 15px;
+     font-weight: 700;
+     text-transform: uppercase;
+ }
 
-.iner-text{color: #363636;
-  font-size: 14px;
-  font-weight: 400;}
+.iner-text{
+      color: #363636;
+      font-size: 14px;
+      font-weight: 400;
+}
 
   /*******************footer*/
 
@@ -231,10 +235,10 @@ padding: 30px 0;
     padding: 0 7px;
   }
   [class*="i-"]{
-  display:inline-block;
-  width:53px;
-  height:53px;
-  background-image:url(../images/sprite.png);
+      display:inline-block;
+      width:53px;
+      height:53px;
+      background-image:url(../images/sprite.png);
   }
   .i-skype{
     background-position: 120px 168px;
@@ -258,3 +262,41 @@ padding: 30px 0;
  .text-copyright{
      padding-right: 35px;
  }
+ /**********************************PORTFOLIO*/
+.tabs{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content:space-between;
+}
+.tabs li{
+    padding: 5px;
+}
+.tab{
+    display: block;
+}
+.imgs-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+.line-pagin{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.line-pagin >.page{
+    display: block;
+    margin: 5px;
+    padding: 10px;
+    border: 2px solid gray;
+}
