@@ -384,13 +384,19 @@ position:relative;
     margin:0 10px;
 }
 .scrol{
-position:fixed;
-width:50px;
-height:40px;
-background:gray;
-right:15px;
-bottom:15px;
-color:red;}
-
+    position:fixed;
+    width:50px;
+    height:40px;
+    background:gray;
+    right:15px;
+    bottom:15px;
+    color:red;
+}
+.border-btm{
+       border-bottom: 2px solid #e8ebf2;
+}
+.wrap-tabs{
+    margin-bottom: 20px;
+    }
 
 
