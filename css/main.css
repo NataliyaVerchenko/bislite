@@ -1,0 +1,78 @@
+body{
+    font-size: 15px;
+    line-height: 1.65;
+    color: #696969;
+    background-color: #fff;
+    font-weight: 400;
+    }
+    *{
+    box-sizing:border-box;
+    }
+    /*шапка сайта*/
+    .header-bcgnd{
+    background:#e8ebf2;
+    }
+    .navbar-flex{
+
+    display:flex;
+    }
+    .bcgnd{
+   /*  background:red;*/
+    }
+    .bgd-blue{
+    }
+    .slide-top{
+        background: rgb(66, 162, 184);}
+        .bckgd-gray{
+         background: #e8ebf2;
+        }
+        /*footer*/
+.footer{
+    background: #e8ebf2;
+        }
+.list-icons{
+            list-style: none;
+             margin: 0;
+             padding: 0;
+             display: flex;
+             justify-content:space-between;
+             flex-wrap:wrap;
+             max-width: 200px;
+          }
+[class*="i-"]{
+    display:inline-block;
+    width:53px;
+    height:53px;
+    background-image:url(../images/sprite.png);
+            }
+.i-skype{
+              background-position: 120px 168px;
+            }
+.i-facebook{
+              background-position: 120px 3px;}
+.i-linkedin{
+              background-position: 190px -54px;}
+.i-dribbble{
+              background-position: 243px 113px;}
+.i-pinterest{
+              background-position: 50px 280px;}
+.i-share{
+              background-position: 3px 4px;}
+.footer-top{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    }
+.list-news ,.list-pages{
+        list-style: none;
+         margin: 0;
+         padding: 0;
+  }
+ .list-pages >li >a ,
+ .list-news >li >a{
+         color:black;
+         }
+
+ .list-pages >li >a:hover ,
+ .list-news >li >a:hover{
+    color:#2aacc8;
+    }
