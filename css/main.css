@@ -177,11 +177,13 @@ margin-top:10px;
 .heading{
     display:flex;
     justify-content: space-between;
-    border-bottom: 2px solid #e8ebf2;
+    border-top: 2px solid #e8ebf2;
     margin: 10px 0;
 }
-.title-h2{
-   /* display:block;*/}
+.title-rght{
+   position: absolute;
+       right: 663px;
+       }
 
 .style-text-btn{
     border: 1px solid #2aacc8;
@@ -189,3 +191,13 @@ margin-top:10px;
         background: aliceblue;
         padding: 10px 10px;
         }
+
+/*sub-menu*/
+/*
+.sub-menu{
+display:none;
+background:#fff;
+}*/
+ .nav >li.active a{
+  border-top:2px solid #2aacc8;
+  }
