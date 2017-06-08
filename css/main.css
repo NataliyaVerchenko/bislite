@@ -101,9 +101,29 @@ body{
        }
 .posit-absol{
     top: 50px;
-    left: 237px;
+    left: 150px;
     position: absolute;
     }
+.form-button {
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2), inset 0 2px 1px rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    border: 1px solid #2aacc8;
+    background-color: #2aacc8;
+    background-image: linear-gradient(to top, #2aacc8 0%, #2aacc8 0%, #60cede 15%, #72dae6 50%, #81e4ed 100%);
+    color: #0d0707;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
     /*images*/
 .imgs-list li{
     width:25%;
@@ -114,11 +134,17 @@ body{
 position:relative;
 }
 .icon{
-  /*  width:40px;
+text-align: center;
+   width:40px;
     height:40px;
-    display:inline-block;*/
-
-
+    display:inline-block;
+}
+.icon >img{
+margin-top:10px;
+}
+.title-h2 {
+    display: flex;
+    align-items: center;
 }
     .imgs-list{
        list-style: none;
@@ -155,7 +181,7 @@ position:relative;
     margin: 10px 0;
 }
 .title-h2{
-    display:block;}
+   /* display:block;*/}
 
 .style-text-btn{
     border: 1px solid #2aacc8;
