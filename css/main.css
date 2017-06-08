@@ -180,6 +180,10 @@ margin-top:10px;
     border-top: 2px solid #e8ebf2;
     margin: 10px 0;
 }
+.border-btm{
+
+border-bottom: 2px solid #e8ebf2;
+border-top: none;}
 .title-rght{
    position: absolute;
        right: 663px;
@@ -201,3 +205,9 @@ background:#fff;
  .nav >li.active a{
   border-top:2px solid #2aacc8;
   }
+ .nav >li >a {  margin: 4px;}
+  .nav >li >a:hover{
+      color:red;
+      background: rgba(66, 162, 184, 0.34);
+
+          }
