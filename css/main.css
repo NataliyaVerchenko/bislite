@@ -133,6 +133,11 @@ body{
 .img{
 position:relative;
 }
+.icon-blue{
+color:#2aacc8;
+  width:30px;
+    height:8px;
+}
 .icon{
 text-align: center;
    width:40px;
@@ -145,6 +150,8 @@ margin-top:10px;
 .title-h2 {
     display: flex;
     align-items: center;
+        margin: 0px;
+        padding: 10px;
 }
     .imgs-list{
        list-style: none;
@@ -206,8 +213,16 @@ background:#fff;
   border-top:2px solid #2aacc8;
   }
  .nav >li >a {  margin: 4px;}
-  .nav >li >a:hover{
+ .nav >li >a:hover{
       color:red;
       background: rgba(66, 162, 184, 0.34);
-
-          }
+}
+.btn-details{
+    color: #2aacc8;
+    background-color: #e8ebf2;
+    border-color: #e8ebf2;
+}
+.btn-details:hover{
+    background-color: #e8ebf2;
+    border-color: #e8ebf2;
+}
