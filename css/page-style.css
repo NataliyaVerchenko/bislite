@@ -9,3 +9,12 @@ html{
 *::after{
      box-sizing:inherit;
 }
+
+.header{
+    background-color: #e8ebf2;
+}
+.navbar-nav{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
