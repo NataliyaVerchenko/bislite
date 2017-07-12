@@ -7,27 +7,375 @@
 </head>
 <body>
 <div class="wrapper">
-    <header class="header">
-        <div class="container">
+<header class="header">
+    <div class="container">
+        <div class="wrapper-nav">
             <nav>
-                <a href="" class="logo"></a>
+                <a href="#" class="logo"><img src="images/logo.jpg" alt=""></a>
                 <ul class="navbar-nav">
-                    <li><a href="">link</a></li>
-                    <li><a href="">link</a></li>
-                    <li><a href="">link</a></li>
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li class="dropdown"><a href="#">Services<span
+                            class="caret"></span></a>
+                        <ul>
+                            <li><a href="#">Адрес</a></li>
+                            <li><a href="#">Телефон</a></li>
+                            <li><a href="#">Email</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact Us</a></li>
                 </ul>
             </nav>
         </div>
-    </header>
-    <main class="main">
-        <div class="container">
-            <div class="content">content</div>
-            <div class="sidebar">sidebar</div>
+    </div>
+</header>
+<section class="slider">
+    <div class="container">
+        <!--start slider-->
+        <div id="slideshow-wrap">
+            <input type="radio" id="button-1" name="controls" checked="checked"/>
+            <label for="button-1"></label>
+            <input type="radio" id="button-2" name="controls"/>
+            <label for="button-2"></label>
+            <input type="radio" id="button-3" name="controls"/>
+            <label for="button-3"></label>
+            <input type="radio" id="button-4" name="controls"/>
+            <label for="button-4"></label>
+            <input type="radio" id="button-5" name="controls"/>
+            <label for="button-5"></label>
+            <label for="button-1" class="arrows" id="arrow-1">></label>
+            <label for="button-2" class="arrows" id="arrow-2">></label>
+            <label for="button-3" class="arrows" id="arrow-3">></label>
+            <label for="button-4" class="arrows" id="arrow-4">></label>
+            <label for="button-5" class="arrows" id="arrow-5">></label>
+
+            <div id="slideshow-inner">
+                <ul>
+                    <li id="slide1">
+                        <img src="http://cssdeck.com/uploads/media/items/3/3yiC6Yq.jpg"/>
+
+                        <div class="description">
+                            <input type="checkbox" id="show-description-1"/>
+                            <label for="show-description-1" class="show-description-label">I</label>
+
+                            <div class="description-text">
+                                <h2>Flower power</h2>
+
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                    tempor invidunt ut</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li id="slide2">
+                        <img src="http://cssdeck.com/uploads/media/items/4/40Ly3VB.jpg"/>
+
+                        <div class="description">
+                            <input type="checkbox" id="show-description-2"/>
+                            <label for="show-description-2" class="show-description-label">I</label>
+
+                            <div class="description-text">
+                                <h2>Golden sunset</h2>
+
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                    tempor invidunt ut</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li id="slide3">
+                        <img src="http://cssdeck.com/uploads/media/items/0/00kih8g.jpg"/>
+
+                        <div class="description">
+                            <input type="checkbox" id="show-description-3"/>
+                            <label for="show-description-3" class="show-description-label">I</label>
+
+                            <div class="description-text">
+                                <h2>Flower power again</h2>
+
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                    tempor invidunt ut</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li id="slide4">
+                        <img src="http://cssdeck.com/uploads/media/items/2/2rT2vdx.jpg"/>
+
+                        <div class="description">
+                            <input type="checkbox" id="show-description-4"/>
+                            <label for="show-description-4" class="show-description-label">I</label>
+
+                            <div class="description-text">
+                                <h2>Stormy coast</h2>
+
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                    tempor invidunt ut</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li id="slide5">
+                        <img src="http://cssdeck.com/uploads/media/items/8/8k3N3EL.jpg"/>
+
+                        <div class="description">
+                            <input type="checkbox" id="show-description-5"/>
+                            <label for="show-description-5" class="show-description-label">I</label>
+
+                            <div class="description-text">
+                                <h2>Splash!</h2>
+
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                    tempor invidunt ut</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </main>
-    <footer class="footer">
-        <div class="container"></div>
-    </footer>
+
+
+        <!--end slider--->
+    </div>
+</section>
+<main class="main">
+    <div class="container">
+        <div class="wrapper-box">
+            <div class="box icon-text">
+                <div class="col-md-3">
+                    <div class="title-h2">
+                    <span class="icon">
+                    <img src="images/paint-brush.png" alt="">
+                </span>
+
+                        <h2>Heading</h2>
+
+
+                    </div>
+                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor
+                        mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada
+                        magna mollis euismod. Donec sed odio dui. </p>
+
+                    <p><a class="btn btn-default btn-details" href="#" role="button">» View details</a></p>
+                </div>
+                <div class="col-md-3">
+                    <div class="title-h2">
+                    <span class="icon">
+                    <img src="images/email.png" alt="">
+
+                </span>
+
+                        <h2>Heading</h2>
+
+
+                    </div>
+                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor
+                        mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada
+                        magna mollis euismod. Donec sed odio dui. </p>
+
+                    <p><a class="btn btn-default btn-details" href="#" role="button">» View details</a></p>
+                </div>
+                <div class="col-md-3">
+                    <div class="title-h2">
+                    <span class="icon">
+                    <img src="images/comments.png" alt="">
+
+                </span>
+
+                        <h2>Heading</h2>
+
+
+                    </div>
+                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor
+                        mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada
+                        magna mollis euismod. Donec sed odio dui. </p>
+
+                    <p><a class="btn btn-default btn-details" href="#" role="button">» View details</a></p>
+                </div>
+                <div class="col-md-3">
+                    <div class="title-h2">
+                    <span class="icon">
+                    <img src="images/paint-brush.png" alt="">
+
+                </span>
+
+                        <h2>Heading</h2>
+
+
+                    </div>
+                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor
+                        mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada
+                        magna mollis euismod. Donec sed odio dui. </p>
+
+                    <p><a class="btn btn-default btn-details" href="#" role="button">» View details</a></p>
+                </div>
+            </div>
+            <div class="wrapper-box">
+                <div class="box portfolio">
+                    <div class="list-portfolio">
+                        <img class="portfolio-img" src="images/l1.png" alt=""/>
+
+                        <div class="hover-img">
+                            <sapn class="icon"><img src="images/preview.png" alt=""></sapn>
+                            <sapn class="icon"><img src="images/link.png" alt=""></sapn>
+
+                        </div>
+                    </div>
+                    <div class="list-portfolio">
+                        <img class="portfolio-img" src="images/img6.png" alt=""/>
+
+                        <div class="hover-img">
+                            <sapn class="icon"><img src="images/preview.png" alt=""></sapn>
+                            <sapn class="icon"><img src="images/link.png" alt=""></sapn>
+
+                        </div>
+                    </div>
+                    <div class="list-portfolio">
+                        <img class="portfolio-img" src="images/img3.png" alt=""/>
+
+                        <div class="hover-img">
+                            <sapn class="icon"><img src="images/preview.png" alt=""></sapn>
+                            <sapn class="icon"><img src="images/link.png" alt=""></sapn>
+
+                        </div>
+                    </div>
+                    <div class="list-portfolio">
+                        <img class="portfolio-img" src="images/img4.png" alt=""/>
+
+                        <div class="hover-img">
+                            <sapn class="icon"><img src="images/preview.png" alt=""></sapn>
+                            <sapn class="icon"><img src="images/link.png" alt=""></sapn>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="testm-clients">
+                <div class="container">
+                    <div class="heading">
+                        <div class="title-h2">
+                            <span class="glyphicon glyphicon-pencil icon-blue"></span>testmonials
+                        </div>
+                        <div class="title-h2 title-rght">
+                                <span class="glyphicon glyphicon-user icon-blue">
+                        </span>our clients
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="box-left">
+                            <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span>
+                            </h2>
+
+                            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis
+                                euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus,
+                                tellus ac cursus commodo.</p>
+                        </div>
+                        <div class="box-rigth">
+                            <div class="box">
+                                <div class="col-md-4"><img src="images/logo1.png" alt=""/></div>
+                                <div class="col-md-4"><img src="images/logo2.png" alt=""/></div>
+                                <div class="col-md-4"><img src="images/logo3.png" alt=""/></div>
+                                <div class="col-md-4"><img src="images/logo4.png" alt=""/></div>
+                                <div class="col-md-4"><img src="images/logo5.png" alt=""/></div>
+                                <div class="col-md-4"><img src="images/logo6.png" alt=""/></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="text-btn">
+                <div class="container">
+                    <div class="box style-text-btn">
+                        <div class="box-left">
+                            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis
+                                euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus,
+                                tellus ac cursus commodo.</p>
+                        </div>
+                        <div class="box-rigth btn-center">
+                            <div class="btn-block posit-absol">
+                                <button class="form-button" type="submit"><sapn class="icon"><img src="images/download.png" alt=""></sapn>download</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<footer class="footer">
+    <div class="container">
+        <div class="wrapper-footer">
+            <div class="footer-top">
+                <div class="col">
+                    <h4 class="column-title">About us</h4>
+
+                    <div class="inner-column">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod
+                        placerat dui et tincidunt. Sed sollicitudin posuere auctor. Phasellus at ultricies nisl.
+                        Integer
+                        at leo eros. Ut nec lorem id orci convallis porta. Donec pharetra neque eu velit dictum
+                        molestie.
+                    </div>
+                </div>
+                <div class="col">
+                    <h4 class="column-title">Explore</h4>
+                    <ul class="list-pages">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h4 class="column-title">Browse</h4>
+                    <ul class="list-news">
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Press &amp; Media</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h4 class="column-title">contact us</h4>
+
+                    <div class="inner-column">
+                        BisLite Inc. <br>
+                        Always Street 265 <br>
+                        0X - 125 - Canada <br>
+
+                        Phone: 987-6543-210 <br>
+                        Fax: 987-6543-210 <br>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <h4 class="column-title">connect with us</h4>
+                    <ul class="list-icons">
+                        <li><a href="#" class="i-skype"></a></li>
+                        <li><a href="#" class="i-facebook"></a></li>
+                        <li><a href="#" class="i-linkedin"></a></li>
+                        <li><a href="#" class="i-dribbble"></a></li>
+                        <li><a href="#" class="i-pinterest"></a></li>
+                        <li><a href="#" class="i-share"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="text-copyright">&copy; Copyright 2012 - BisLite Inc. All rights reserved. Some free
+                    icons
+                    used here
+                    are created by Brankic1979.com.
+                    Client Logos are copyright and trademark of the respective owners / companies.
+                </div>
+                <div class="footer-logo">
+                    <a href=""><img src="images/bizlite-logo.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</footer>
 </div>
 
 </body>
